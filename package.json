@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yastrebdev/changelings-client.git",
+  "author": "<yastrebdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.2"
+  }
+}
