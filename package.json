@@ -5,7 +5,26 @@
   "repository": "https://github.com/yastrebdev/changelings-client.git",
   "author": "<yastrebdev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "sass-loader": "^14.1.1",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "sass": "^1.72.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
